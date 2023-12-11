@@ -27,18 +27,45 @@ git clone https://github.com/BlastChrome/webdev-starter.git
 cd webdev-starter
 ```
 
-## Install the dependencies:
+## Installation
 
+To install the dependencies, run the following command:
+
+```bash
 npm install
+```
 
-## To start the development server:
+## Development Server
 
+To start the development server, use the command:
+
+```bash
 npm start
+```
 
-## To build the project for production:
+## Build for Production
 
+To build the project for production, run:
+
+```bash
 npm run build
+```
 
-## To run tests:
+## Testing
 
+To run your test suite, use the command:
+
+```bash
 npm test
+```
+
+## Structure
+
+- `dist/`: Compiled files will be output to this directory.
+- `src/`: Source files for your project.
+  - `__tests__/`: Test files for Jest.
+  - `assets/`: Static assets like images and fonts.
+  - `scss/`: SCSS files for styles.
+  - `index.js`: Entry point for your application's JavaScript.
+- `webpack.config.js`: Configuration file for Webpack.
+- `package.json`: Project metadata and dependencies.
